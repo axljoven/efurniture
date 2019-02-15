@@ -6,7 +6,6 @@ function Hamburger() {
             <span className="hamburger-line"></span>
             <span className="hamburger-line"></span>
             <span className="hamburger-line"></span>
-            Hamburger
         </a>
     )
 }

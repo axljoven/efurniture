@@ -1,0 +1,43 @@
+//
+// SITE HEADER ----------------------------------------------------------------
+//
+
+.site-header {
+    background-color: $c-white;
+    padding: 20px 25px;
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+
+    &-section {
+        width: 33.3333%
+    }
+
+
+    // Contact number and search icon
+
+    &-section:last-child {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: stretch;
+
+        & > div {
+            margin-left: 20px;
+            &:first-child { margin-left: 0; }
+        }
+    }
+
+
+    // Brand
+    .brand {
+        display: block;
+        text-align: center;
+    }
+}

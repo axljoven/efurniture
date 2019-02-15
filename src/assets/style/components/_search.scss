@@ -1,0 +1,21 @@
+//
+// SEARCH ---------------------------------------------------------------------
+//
+
+.search {
+
+    &-icon {
+        .icon {
+            width: 25px;
+            display: inline-block;
+            height: 28px;
+            font-size: 1.5rem;
+            font-weight: $f-bold;
+            text-align: center;
+        }
+    }
+
+    &-input {
+        display: none;
+    }
+}

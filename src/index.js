@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-
-
+import './../node_modules/ionicons/dist/css/ionicons.min.css'
+import './../node_modules/tailwindcss/dist/tailwind.min.css'
+import './assets/style/main.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

@@ -1,0 +1,19 @@
+//
+// HAMBURGER ------------------------------------------------------------------
+//
+
+.hamburger {
+    display: inline-block;
+
+    &-line {
+        display: block;
+        background-color: $c-black;
+        height: 2px;
+        width: 15px;
+        margin-bottom: 2px
+    }
+
+    &-line:last-child {
+        margin-bottom: 0
+    }
+}

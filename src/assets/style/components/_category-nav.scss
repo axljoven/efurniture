@@ -1,0 +1,25 @@
+//
+// CATEGORY NAVIGATION --------------------------------------------------------
+//
+
+.category-nav-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $c-light-gray;
+
+    .nav-item {
+        width: 16.6666666667%;
+        a { 
+            display: block;
+            text-align: center; 
+            text-transform: uppercase;
+        }
+        
+        &-title {
+            font-weight: $f-bold;
+            color: $c-gray;
+            font-size: .9rem;
+            letter-spacing: 2px
+        }
+    }
+}
